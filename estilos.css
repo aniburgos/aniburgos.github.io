@@ -1,0 +1,101 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(30, 144, 255);
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+h1:hover, h2:hover {
+    color: #d89bf2;
+}
+
+h2:hover {
+    background-color: black;
+}
+
+a+p {
+    text-align: center;
+    font-size: large;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-container .side {
+    flex-grow: 1;
+}
+
+.flex-container .main {
+    flex-grow: 9;
+}
+
+.info {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.info h2 {
+    text-align: center;
+}
+
+.info table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px
+}
+
+.info table th {
+    padding: 10px;
+}
+
+.info table td {
+    padding-left: 15px;
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contacto {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], textarea {
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%
+}
+
+input[type=submit] {
+    background-color: #040faa;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#experiencia:hover, #habilidades:hover, #educacion:hover  {
+    color: darkblue;
+}
